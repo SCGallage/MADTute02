@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/custom_toast_layout"
+    android:orientation="horizontal"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="#80CC28" >
+
+    <ImageView  android:id="@+id/custom_toast_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="Hello world"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/ic_notification"/>
+
+    <TextView  android:id="@+id/custom_toast_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="13dp"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:contentDescription="To"
+        android:text="Welcome to the calculator!" />
+</LinearLayout>

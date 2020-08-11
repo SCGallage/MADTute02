@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">IntentsProj</string>
+    <string name="sec_textview">Number 1</string>
+    <string name="sec_textview2">Number 2</string>
+    <string name="buttonplus">+</string>
+    <string name="buttonmin">-</string>
+    <string name="buttonmulti">*</string>
+    <string name="buttondiv">/</string>
+    <string name="fir_textview">Number 1</string>
+    <string name="fir_texview2">Number 2</string>
+    <string name="answer_tex"></string>
+</resources>
